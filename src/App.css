@@ -1,0 +1,45 @@
+/** @format */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+
+:root {
+  --White: hsl(0, 0%, 100%);
+  --Light_gray: hsl(212, 45%, 89%);
+  --Grayish_blue: hsl(220, 15%, 55%);
+  --Dark_blue: hsl(218, 44%, 22%);
+}
+.container {
+  width: 290px;
+  border-radius: 16px;
+  padding: 16px 16px 44px 16px;
+  background-color: var(--White);
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+.container img {
+  width: 100%;
+  border-radius: 12px;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  -ms-border-radius: 12px;
+  -o-border-radius: 12px;
+}
+.contenido {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contenido p {
+  font-weight: 700;
+  font-size: 22px;
+  text-align: center;
+  color: var(--Dark_blue);
+}
+.contenido span {
+  font-size: 17px;
+  font-weight: lighter;
+  text-align: center;
+  color: var(--Grayish_blue);
+}
